@@ -1,0 +1,21 @@
+/******************************** btn ********************************/
+
+
+$b: ".btn";
+
+#{$b} {
+	display: inline-block;
+	width: 287px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-family: Georgia, Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	background-color: $pink;
+	color: $white;
+	text-decoration: none;
+
+	&:hover {
+		background-color: rgba($pink, .9);
+	}
+}

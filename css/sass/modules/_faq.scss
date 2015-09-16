@@ -1,0 +1,64 @@
+/******************************** faq ********************************/
+
+
+$b: ".faq";
+
+#{$b} {
+	margin-top: 40px;
+}
+
+#{$b}__title {
+	position: relative;
+	font-size: 24px;
+	margin: 0 0 27px 0;
+	cursor: pointer;
+	color: #E7005F;
+
+	@include after {
+		content: "+";
+		font-weight: 100;
+		position: absolute;
+		top: 0px;
+		left: -27px;
+	}
+
+	span {
+		border-bottom: 1px dashed #E7005F;
+	}
+
+}
+
+#{$b}__title_open {
+	color: $black;
+
+	@include after {
+		content: "-";
+	}
+
+	span {
+		border-bottom: none;
+	}
+}
+
+#{$b}__list {
+	display: none;
+	margin-left: 50px;
+	list-style: decimal;
+}
+
+#{$b}__list-item {
+	margin: 32px 0 21px 0;
+}
+
+#{$b}__question {
+	font-size: 16;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+
+#{$b}__text {
+	margin: 10px 0;
+	line-height: 160%;
+	font-size: 14px;
+	color: $gray;
+}

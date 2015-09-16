@@ -1,0 +1,23 @@
+/******************************** partners ********************************/
+
+
+$b: ".partners";
+
+#{$b} {
+	display: table;
+	height: 140px;
+	width: 100%;
+}
+
+#{$b}__item {
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+//	border: 1px solid red;
+	width: 25%;
+}
+
+#{$b}__item-type {
+	position: absolute;
+	top: -15px;
+}

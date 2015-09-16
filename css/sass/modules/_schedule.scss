@@ -1,0 +1,77 @@
+/******************************** schedule ********************************/
+
+
+$b: ".schedule";
+
+#{$b} {
+
+}
+
+#{$b}__date {
+	margin: 20px 0;
+	font-size: 24px;
+	color: $purpule;
+}
+
+#{$b}-item {
+	display: table;
+	width: 100%;
+	height: 80px;
+	border-top: 1px dotted $black;
+
+	&:last-child {
+		border-bottom: 1px dotted $black;
+	}
+
+}
+
+#{$b}-item_more {
+	height: 50px;
+
+	&:last-child {
+		border-top: 1px dotted $black;
+		border-bottom: none;
+	}
+
+	#{$b}-item__data {
+		vertical-align: bottom;
+	}
+}
+
+#{$b}-item__time, #{$b}-item__avatar, #{$b}-item__data {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#{$b}-item__time {
+	width: 70px;
+	font-size: 14px;
+	color: $gray;
+}
+
+#{$b}-item__avatar {
+	width: 70px;
+
+	img {
+		display: inline-block;
+		width: 45px;
+		height: 45px;
+		@include border-radius(22px);
+	}
+}
+
+#{$b}-item__data {
+
+}
+
+#{$b}-item__data-author {
+	font-size: 14px;
+	color: $gray;
+	padding-bottom: 6px;
+}
+
+#{$b}-item__data-title {
+	font-size: 24px;
+	color: $black;
+}
+

@@ -1,0 +1,47 @@
+/******************************** section ********************************/
+
+
+$b: ".section";
+
+#{$b} {
+	position: relative;
+	background:  url("../img/section-decor.jpg"),
+			     url("../img/section-decor-top.jpg");
+	background-color: $white;
+	background-position: 100% 100%, 0 0;
+	background-repeat: repeat-x, repeat-x;
+	padding: 65px 60px 60px 65px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	@include box-sizing(border-box);
+
+	&:first-of-type {
+		background:  url("../img/section-decor.jpg") repeat-x 100% 100%;
+		background-color: $white;
+	}
+}
+
+#{$b}__title {
+	font-size: 40px;
+}
+
+#{$b}__text {
+	margin: 20px 0;
+	font-size: 16px;
+	color: $gray;
+	line-height: 160%;
+}
+
+#{$b}__btn {
+	width: 287px;
+	height: 80px;
+	position: absolute;
+	top: -40px;
+	right: 60px;
+
+	p {
+		margin-top: 15px;
+		font-size: 14px;
+		color: $gray;
+	}
+}

@@ -1,0 +1,571 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 102, sass/_mixins.scss */
+.toolbar__inner {
+  zoom: 1;
+}
+/* line 104, sass/_mixins.scss */
+.toolbar__inner:before, .toolbar__inner:after {
+  content: " ";
+  display: table;
+}
+/* line 109, sass/_mixins.scss */
+.toolbar__inner:after {
+  clear: both;
+}
+
+/******************************** compass ********************************/
+/* line 18, sass/modules/_common.scss */
+body {
+  background-color: #553CA1;
+  background-image: url("../img/bg_start.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/******************************** layout ********************************/
+/* line 6, sass/modules/_layout.scss */
+.layout {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.layout:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/******************************** toolbar ********************************/
+/* line 6, sass/modules/_toolbar.scss */
+.toolbar {
+  width: 100%;
+  height: 60px;
+  background: #FFF;
+}
+
+/* line 16, sass/modules/_toolbar.scss */
+.toolbar__menu {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+
+/* line 20, sass/modules/_toolbar.scss */
+.toolbar__social {
+  width: 15.25424%;
+  float: right;
+  margin-right: 0;
+}
+
+/******************************** menu ********************************/
+/* line 6, sass/modules/_menu.scss */
+.menu {
+  display: table;
+  height: 60px;
+}
+
+/* line 12, sass/modules/_menu.scss */
+.menu__item {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 40px;
+}
+/* line 17, sass/modules/_menu.scss */
+.menu__item a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+/* line 23, sass/modules/_menu.scss */
+.menu__item a:hover {
+  text-decoration: underline;
+}
+
+/******************************** btn ********************************/
+/* line 6, sass/modules/_btn.scss */
+.btn {
+  display: inline-block;
+  width: 287px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  background-color: #E50262;
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 18, sass/modules/_btn.scss */
+.btn:hover {
+  background-color: rgba(229, 2, 98, 0.9);
+}
+
+/******************************** social ********************************/
+/* line 64, social/*.png */
+.social-sprite, .social_fb, .social_tw, .social_vk {
+  background-image: url('../img/social-s9b4bb76575.png');
+  background-repeat: no-repeat;
+}
+
+/* line 19, sass/modules/_social.scss */
+.social {
+  display: table;
+  height: 60px;
+  width: 100%;
+}
+
+/* line 25, sass/modules/_social.scss */
+.social__item {
+  display: table-cell;
+  width: 33.3%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 33, sass/modules/_social.scss */
+.social_fb {
+  display: inline-block;
+  background-position: 0 0;
+  width: 13px;
+  height: 23px;
+}
+
+/* line 37, sass/modules/_social.scss */
+.social_tw {
+  display: inline-block;
+  background-position: 0 -23px;
+  width: 27px;
+  height: 20px;
+}
+
+/* line 41, sass/modules/_social.scss */
+.social_vk {
+  display: inline-block;
+  background-position: 0 -43px;
+  width: 33px;
+  height: 19px;
+}
+
+/******************************** header ********************************/
+/* line 6, sass/modules/_header.scss */
+.header {
+  position: relative;
+  height: 460px;
+  text-align: right;
+}
+
+/* line 12, sass/modules/_header.scss */
+.header__logo {
+  background-image: url('../img/logo.png?1431896179');
+  width: 135px;
+  height: 113px;
+  position: absolute;
+  top: 96px;
+  left: 60px;
+}
+
+/* line 19, sass/modules/_header.scss */
+.header__title {
+  padding: 100px 0 68px 0;
+  font-size: 58px;
+  color: #FFF;
+}
+
+/* line 27, sass/modules/_header.scss */
+.header__quote p {
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 150%;
+}
+/* line 35, sass/modules/_header.scss */
+.header__quote p + p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/******************************** section ********************************/
+/* line 6, sass/modules/_section.scss */
+.section {
+  position: relative;
+  background: url("../img/section-decor.jpg"), url("../img/section-decor-top.jpg");
+  background-color: #FFF;
+  background-position: 100% 100%, 0 0;
+  background-repeat: repeat-x, repeat-x;
+  padding: 65px 60px 60px 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 18, sass/modules/_section.scss */
+.section:first-of-type {
+  background: url("../img/section-decor.jpg") repeat-x 100% 100%;
+  background-color: #FFF;
+}
+
+/* line 24, sass/modules/_section.scss */
+.section__title {
+  font-size: 40px;
+}
+
+/* line 28, sass/modules/_section.scss */
+.section__text {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #666666;
+  line-height: 160%;
+}
+
+/* line 35, sass/modules/_section.scss */
+.section__btn {
+  width: 287px;
+  height: 80px;
+  position: absolute;
+  top: -40px;
+  right: 60px;
+}
+/* line 42, sass/modules/_section.scss */
+.section__btn p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666666;
+}
+
+/******************************** schedule ********************************/
+/* line 10, sass/modules/_schedule.scss */
+.schedule__date {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #553CA1;
+}
+
+/* line 16, sass/modules/_schedule.scss */
+.schedule-item {
+  display: table;
+  width: 100%;
+  height: 80px;
+  border-top: 1px dotted #000;
+}
+/* line 22, sass/modules/_schedule.scss */
+.schedule-item:last-child {
+  border-bottom: 1px dotted #000;
+}
+
+/* line 28, sass/modules/_schedule.scss */
+.schedule-item_more {
+  height: 50px;
+}
+/* line 31, sass/modules/_schedule.scss */
+.schedule-item_more:last-child {
+  border-top: 1px dotted #000;
+  border-bottom: none;
+}
+/* line 36, sass/modules/_schedule.scss */
+.schedule-item_more .schedule-item__data {
+  vertical-align: bottom;
+}
+
+/* line 41, sass/modules/_schedule.scss */
+.schedule-item__time, .schedule-item__avatar, .schedule-item__data {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 46, sass/modules/_schedule.scss */
+.schedule-item__time {
+  width: 70px;
+  font-size: 14px;
+  color: #666666;
+}
+
+/* line 52, sass/modules/_schedule.scss */
+.schedule-item__avatar {
+  width: 70px;
+}
+/* line 55, sass/modules/_schedule.scss */
+.schedule-item__avatar img {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  border-radius: 22px;
+}
+
+/* line 67, sass/modules/_schedule.scss */
+.schedule-item__data-author {
+  font-size: 14px;
+  color: #666666;
+  padding-bottom: 6px;
+}
+
+/* line 73, sass/modules/_schedule.scss */
+.schedule-item__data-title {
+  font-size: 24px;
+  color: #000;
+}
+
+/******************************** location ********************************/
+/* line 10, sass/modules/_location.scss */
+.location__data {
+  margin-bottom: 30px;
+}
+
+/* line 14, sass/modules/_location.scss */
+.location__gallery {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.location__gallery:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 18, sass/modules/_location.scss */
+.location__gallery-item {
+  position: relative;
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 180px;
+  -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 25, sass/modules/_location.scss */
+.location__gallery-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5) inset;
+}
+/* line 35, sass/modules/_location.scss */
+.location__gallery-item:last-child {
+  margin-right: 0;
+}
+/* line 39, sass/modules/_location.scss */
+.location__gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/******************************** partners ********************************/
+/* line 6, sass/modules/_partners.scss */
+.partners {
+  display: table;
+  height: 140px;
+  width: 100%;
+}
+
+/* line 12, sass/modules/_partners.scss */
+.partners__item {
+  position: relative;
+  vertical-align: middle;
+  display: table-cell;
+  width: 25%;
+}
+
+/* line 20, sass/modules/_partners.scss */
+.partners__item-type {
+  position: absolute;
+  top: -15px;
+}
+
+/******************************** faq ********************************/
+/* line 6, sass/modules/_faq.scss */
+.faq {
+  margin-top: 40px;
+}
+
+/* line 10, sass/modules/_faq.scss */
+.faq__title {
+  position: relative;
+  font-size: 24px;
+  margin: 0 0 27px 0;
+  cursor: pointer;
+  color: #E7005F;
+}
+/* line 5, sass/_mixins.scss */
+.faq__title:after {
+  content: "";
+  display: block;
+  content: "+";
+  font-weight: 100;
+  position: absolute;
+  top: 0px;
+  left: -27px;
+}
+/* line 25, sass/modules/_faq.scss */
+.faq__title span {
+  border-bottom: 1px dashed #E7005F;
+}
+
+/* line 31, sass/modules/_faq.scss */
+.faq__title_open {
+  color: #000;
+}
+/* line 5, sass/_mixins.scss */
+.faq__title_open:after {
+  content: "";
+  display: block;
+  content: "-";
+}
+/* line 38, sass/modules/_faq.scss */
+.faq__title_open span {
+  border-bottom: none;
+}
+
+/* line 43, sass/modules/_faq.scss */
+.faq__list {
+  display: none;
+  margin-left: 50px;
+  list-style: decimal;
+}
+
+/* line 49, sass/modules/_faq.scss */
+.faq__list-item {
+  margin: 32px 0 21px 0;
+}
+
+/* line 53, sass/modules/_faq.scss */
+.faq__question {
+  font-size: 16;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+/* line 59, sass/modules/_faq.scss */
+.faq__text {
+  margin: 10px 0;
+  line-height: 160%;
+  font-size: 14px;
+  color: #666666;
+}
+
+/******************************** past-projects ********************************/
+/******************************** footer ********************************/
+/* line 6, sass/modules/_footer.scss */
+.footer {
+  height: 660px;
+  width: 100%;
+  background-image: url("../img/bg_finish.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+/* line 16, sass/modules/_footer.scss */
+.footer__title {
+  font-size: 58px;
+  color: #FFF;
+  padding: 53px 0 52px 0;
+}
+
+/* line 22, sass/modules/_footer.scss */
+.footer__contacts {
+  color: #FFF;
+}
+/* line 25, sass/modules/_footer.scss */
+.footer__contacts h4 {
+  font-size: 24px;
+  padding: 40px 0 30px 0;
+}
+/* line 30, sass/modules/_footer.scss */
+.footer__contacts p {
+  font-size: 15px;
+  line-height: 150%;
+}

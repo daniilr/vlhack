@@ -1,0 +1,34 @@
+/******************************** footer ********************************/
+
+
+$b: ".footer";
+
+#{$b} {
+	height: 660px;
+	width: 100%;
+	background-image: url("../img/bg_finish.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	@include background-size(100% auto);
+	text-align: center;
+}
+
+#{$b}__title {
+	font-size: 58px;
+	color: $white;
+	padding: 53px 0 52px 0;
+}
+
+#{$b}__contacts {
+	color: $white;
+
+	h4 {
+		font-size: 24px;
+		padding: 40px 0 30px 0;
+	}
+
+	p {
+		font-size: 15px;
+		line-height: 150%;
+	}
+}

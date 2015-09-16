@@ -1,0 +1,43 @@
+/******************************** social ********************************/
+
+//lang
+
+@import "social/*.png";
+
+$social-spacing: 5px;
+
+@mixin social-sp($name) {
+	display: inline-block;
+	@include social-sprite($name);
+	width: social-sprite-width($name);
+	height: social-sprite-height($name);
+}
+
+
+$b: ".social";
+
+#{$b} {
+	display: table;
+	height: 60px;
+	width: 100%;
+}
+
+#{$b}__item {
+	display: table-cell;
+	width: 33.3%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+#{$b}_fb {
+	@include social-sp("fb");
+}
+
+#{$b}_tw {
+	@include social-sp("tw");
+}
+
+#{$b}_vk {
+	@include social-sp("vk");
+}

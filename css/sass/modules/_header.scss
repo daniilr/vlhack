@@ -1,0 +1,43 @@
+/******************************** header ********************************/
+
+
+$b: ".header";
+
+#{$b} {
+	position: relative;
+	height: 460px;
+	text-align: right;
+}
+
+#{$b}__logo {
+	@include image-with-dimentions("logo.png");
+	position: absolute;
+	top: 96px;
+	left: 60px;
+}
+
+#{$b}__title {
+	padding: 100px 0 68px 0;
+	font-size: 58px;
+	color: $white;
+}
+
+#{$b}__quote {
+
+	p {
+		font-family: Georgia, Helvetica, Arial, sans-serif;
+		font-style: italic;
+		color: $white;
+		font-size: 24px;
+		line-height: 150%;
+	}
+
+	p + p {
+		font-size: 18px;
+		color: rgba($white, .6);
+	}
+}
+
+#{$b}__logo {
+
+}

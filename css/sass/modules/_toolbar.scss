@@ -1,0 +1,22 @@
+/******************************** toolbar ********************************/
+
+
+$b: ".toolbar";
+
+#{$b} {
+  width: 100%;
+  height: 60px;
+  background: $white;
+}
+
+#{$b}__inner {
+	@extend %clearfix;
+}
+
+#{$b}__menu {
+	@include span(10 of 12);
+}
+
+#{$b}__social {
+	@include span(2 last of 12);
+}
