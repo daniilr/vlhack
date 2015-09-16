@@ -6,6 +6,7 @@ $white: #FFF;
 $black: #000;
 $purpule: #553CA1;
 $gray: #666666;
+$gray-light: #ABAFB6;
 $pink: #E50262;
 
 
@@ -16,10 +17,17 @@ $susy: (
 
 
 body {
-	background-color: $purpule;
-	background-image: url("../img/bg_start.jpg");
-	background-repeat: no-repeat;
-	background-position: 50% 0;
-	@include background-size(100% auto);
+	background: url("../img/bg_start.jpg"), url("../img/bg_finish.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: 50% 0, 50% 100%;
 	font-family: Helvetica, Arial, sans-serif;
+	background-color: $purpule;
+
+	@include breakpoint(min-width 1600px) {
+		@include background-size(100% auto);
+	}
+}
+
+.fancybox-overlay {
+	background: rgba($black, .8);
 }

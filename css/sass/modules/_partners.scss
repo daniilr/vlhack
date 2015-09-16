@@ -4,6 +4,7 @@
 $b: ".partners";
 
 #{$b} {
+	margin-top: 41px;
 	display: table;
 	height: 140px;
 	width: 100%;
@@ -17,7 +18,15 @@ $b: ".partners";
 	width: 25%;
 }
 
+#{$b}__item_sponsor {
+	padding-right: 110px;
+}
+
+#{$b}__item_farpost {
+	padding-right: 30px;
+}
+
 #{$b}__item-type {
 	position: absolute;
-	top: -15px;
+	top: -19px;
 }

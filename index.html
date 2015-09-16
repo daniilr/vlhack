@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<title>Vladivostok Hackathon #3</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link rel="stylesheet" href="css/main.min.css"/>
 	<script src="js/main.min.js"></script>
 </head>
@@ -11,18 +13,18 @@
 			<div class="toolbar__inner layout">
 				<div class="toolbar__menu">
 					<ul class="menu">
-						<li class="menu__item"><a href="#">Расписание</a></li>
-						<li class="menu__item"><a href="#">Место проведения</a></li>
-						<li class="menu__item"><a href="#">Расписание</a></li>
-						<li class="menu__item"><a href="#">F.A.Q</a></li>
-						<li class="menu__item"><a href="#">Прошлые проекты</a></li>
+						<li class="menu__item"><a href="#schedule">Расписание</a></li>
+						<li class="menu__item"><a href="#location">Место проведения</a></li>
+						<li class="menu__item"><a href="#partners">Партнеры</a></li>
+						<li class="menu__item"><a href="#faq">F.A.Q</a></li>
+						<li class="menu__item"><a href="#projects">Прошлые проекты</a></li>
 					</ul>
 				</div>
 				<div class="toolbar__social">
 					<ul class="social">
-						<li class="social__item"><a href=""><i class="social_fb"></i></a></li>
-						<li class="social__item"><a href=""><i class="social_tw"></i></a></li>
-						<li class="social__item"><a href=""><i class="social_vk"></i></a></li>
+						<!--<li class="social__item"><a href=""><i class="social_fb"></i></a></li>-->
+						<!--<li class="social__item"><a href=""><i class="social_tw"></i></a></li>-->
+						<li class="social__item"><a href="http://vk.com/vladivostokhackathon"><i class="social_vk"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -35,168 +37,417 @@
 				<p>Линус Торвальдс, создатель Linux</p>
 			</div>
 		</div><!-- /header -->
-		<section class="section layout">
+		<section id="schedule" class="section layout">
 			<h3 class="section__title">Расписание событий</h3>
 			<div class="schedule">
-				<p class="schedule__date">20 июня, суббота</p>
+				<p class="schedule__date">22 апреля, среда</p>
 				<ul class="schedule__list">
 					<li class="schedule-item">
-						<div class="schedule-item__time">19:00</div>
-						<div class="schedule-item__avatar"><img src="img/ava.jpg" alt=""/></div>
+						<div class="schedule-item__time">14:00 - 15:30</div>
+						<div class="schedule-item__avatar"><img src="img/speakers/grigoriy_alexanin.jpg" alt=""/></div>
 						<div class="schedule-item__data">
-							<p class="schedule-item__data-author">Питер Гриффин</p>
-							<p class="schedule-item__data-title">Открытие фестиваля</p>
-						</div>
-					</li><!--/schedule-item -->
-					<li class="schedule-item">
-						<div class="schedule-item__time">19:00</div>
-						<div class="schedule-item__avatar"><img src="img/ava.jpg" alt=""/></div>
-						<div class="schedule-item__data">
-							<p class="schedule-item__data-author">Питер Гриффин</p>
-							<p class="schedule-item__data-title">Открытие фестиваля</p>
-						</div>
-					</li><!--/schedule-item -->
-					<li class="schedule-item">
-						<div class="schedule-item__time">19:00</div>
-						<div class="schedule-item__avatar"><img src="img/ava.jpg" alt=""/></div>
-						<div class="schedule-item__data">
-							<p class="schedule-item__data-author">Питер Гриффин</p>
-							<p class="schedule-item__data-title">Открытие фестиваля</p>
-						</div>
-					</li><!--/schedule-item -->
-					<li class="schedule-item">
-						<div class="schedule-item__time">19:00</div>
-						<div class="schedule-item__avatar"><img src="img/ava.jpg" alt=""/></div>
-						<div class="schedule-item__data">
-							<p class="schedule-item__data-author">Питер Гриффин</p>
-							<p class="schedule-item__data-title">Открытие фестиваля</p>
-						</div>
-					</li><!--/schedule-item -->
-					<li class="schedule-item schedule-item_more">
-						<div class="schedule-item__time"></div>
-						<div class="schedule-item__avatar"></div>
-						<div class="schedule-item__data schedule-item__data">
-							<a href="">Еще события</a>
+							<p class="schedule-item__data-author">Григорий Алексанин, ведущий разработчик Game Forest. D542 (корпус D кампуса, 5 этаж)</p>
+							<p class="schedule-item__data-title">Игровые движки и быстрое прототипирование игр</p>
 						</div>
 					</li><!--/schedule-item -->
 				</ul>
+				<p class="schedule__date">23 апреля, четверг</p>
+				<ul class="schedule__list">
+					<li class="schedule-item">
+						<div class="schedule-item__time">16:00 - 17:30</div>
+						<div class="schedule-item__avatar"><img src="img/speakers/alexander_strogonov.jpg" alt=""/></div>
+						<div class="schedule-item__data">
+							<p class="schedule-item__data-author">Александр Строгонов, DevOps KamaGames Studio. "Аякс" (корпус А кампуса, 4 этаж)</p>
+							<p class="schedule-item__data-title">Меч и Магия серверного администрирования</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">18:00 - 19:30</div>
+						<div class="schedule-item__avatar"><img src="img/speakers/kirill_korneev.jpg" alt=""/></div>
+						<div class="schedule-item__data">
+							<p class="schedule-item__data-author">Кирилл Корнеев, арт-директор Game Forest. "Аякс" (корпус А кампуса, 4 этаж)</p>
+							<p class="schedule-item__data-title">Ремесло игрового художника</p>
+						</div>
+					</li><!--/schedule-item -->
+				</ul>
+				<span class="schedule__more link">Далее<i class="fa fa-chevron-down"></i></span>
+			</div><!-- /schedule-->
+			<div class="schedule">
+				<p class="schedule__date">24 апреля, пятница</p>
+				<ul class="schedule__list">
+					<li class="schedule-item">
+						<div class="schedule-item__time">14:00 - 15:00</div>
+						<div class="schedule-item__avatar"><img src="img/speakers/vitaliy_platonov.jpg" alt=""/></div>
+						<div class="schedule-item__data">
+							<p class="schedule-item__data-author">Виталий Платонов, организатор Vladivostok Hackathon. "Аякс" (корпус А кампуса, 4 этаж)</p>
+							<p class="schedule-item__data-title">Как подготовить презентацию прототипа IT-проекта</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">17:00 - 18:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/open.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<p class="schedule-item__data-title">Открытие</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">18:00 - ночь</div>
+						<div class="schedule-item__avatar"><img src="img/events/job.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<p class="schedule-item__data-title">Работа над проектами</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">20:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/coffee.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Кофе-брейк</p>
+						</div>
+					</li><!--/schedule-item -->
+				</ul>
+				<span class="schedule__more link">Далее<i class="fa fa-chevron-down"></i></span>
+			</div><!-- /schedule-->
+			<div class="schedule">
+				<p class="schedule__date">25 апреля, суббота</p>
+				<ul class="schedule__list">
+					<li class="schedule-item">
+						<div class="schedule-item__time">9:00 - ночь</div>
+						<div class="schedule-item__avatar"><img src="img/events/job.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Работа над проектами</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">11:00 - 12:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/coffee.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Кофе-брейк</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">14:00 - 15:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/dinner.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Обед</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">19:00 - 20:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/supper.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Ужин</p>
+						</div>
+					</li><!--/schedule-item -->
+				</ul>
+				<span class="schedule__more link">Далее<i class="fa fa-chevron-down"></i></span>
+			</div><!-- /schedule-->
+			<div class="schedule">
+				<p class="schedule__date">26 апреля, воскресенье</p>
+				<ul class="schedule__list">
+					<li class="schedule-item">
+						<div class="schedule-item__time">9:00 - 18:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/job.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Работа над проектами</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">11:00 - 12:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/coffee.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Кофе-брейк</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">14:00 - 15:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/dinner.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Обед</p>
+						</div>
+					</li><!--/schedule-item -->
+					<li class="schedule-item">
+						<div class="schedule-item__time">17:00 - 21:00</div>
+						<div class="schedule-item__avatar"><img src="img/events/presentation.png" alt=""/></div>
+						<div class="schedule-item__data">
+							<!--<p class="schedule-item__data-author">Питер Гриффин</p>-->
+							<p class="schedule-item__data-title">Презентации проектов</p>
+						</div>
+					</li><!--/schedule-item -->
+				</ul>
+				<!--<span class="schedule__more link">Далее<i class="fa fa-chevron-down"></i></span>-->
 			</div><!-- /schedule-->
 			<div class="section__btn">
-				<a class="btn" href="">Участвовать</a>
-				<p>Регистрация открыта до 18 апреля 18:00</p>
+				<a class="btn" href="https://docs.google.com/forms/d/1vfGN_LYY00WjviXcNy2y2zLf1X17yT_FGzXnOU2KaQk/viewform">Участвовать</a>
+				<p>Регистрация закрыта. Всем спасибо!</p>
 			</div>
 		</section><!-- section -->
-		<section class="section layout">
+		<section id="location" class="section layout">
 			<h3 class="section__title">Место проведения</h3>
-			<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor exercitationem facere magni minima modi nisi odio officia, pariatur tempore. Aliquam facilis iusto maiores possimus repudiandae. Expedita explicabo mollitia omnis placeat.</p>
+			<p class="section__text">Vladivostok Hackathon пройдет в коворкинге «Аякс» в кампусе ДВФУ.  Будут пуфики, хороший WI-FI, много розеток, кофе-точка – всё, как мы любим.</p>
 			<div class="location">
 				<div class="location__data">
-					<a class="location__data-place" href="#">г. Владивосток, о. Русский, кампус "ДВФУ"</a>
-					<a class="location__data-vk" href="#">Группа вконтакте</a>
+					<a class="location__data-place link" href="http://www.dvfu.ru/web/campus/karta"><i class="fa fa-map-marker"></i> г. Владивосток, о. Русский, кампус "ДВФУ"</a>
+					<a class="location__data-vk link" href="http://vk.com/vladivostokhackathon">Группа ВКонтакте</a>
 				</div>
-				<ul class="location__gallery">
-					<li class="location__gallery-item"><img src="img/loc-img.png" alt=""/></li>
-					<li class="location__gallery-item"><img src="img/loc-img.png" alt=""/></li>
-					<li class="location__gallery-item"><img src="img/loc-img.png" alt=""/></li>
+				<ul class="location__gallery js-gallery">
+					<li class="location__gallery-item">
+						<a class="location__gallery-link fancybox js-link" rel="gallery1" href="img/gallery/1.jpg">
+							<img src="img/gallery/1-prev.jpg" alt=""/>
+							<div class="location__gallery-link-overlay js-link-overlay">
+								<i class="fa fa-search"></i>
+							</div>
+						</a>
+					</li>
+					<li class="location__gallery-item">
+						<a class="location__gallery-link fancybox js-link" rel="gallery1" href="img/gallery/2.jpg">
+							<img src="img/gallery/2-prev.jpg" alt=""/>
+							<div class="location__gallery-link-overlay js-link-overlay">
+								<i class="fa fa-search"></i>
+							</div>
+						</a>
+					</li>
+					<li class="location__gallery-item">
+						<a class="location__gallery-link fancybox js-link" rel="gallery1" href="img/gallery/3.jpg">
+							<img src="img/gallery/3-prev.jpg" alt=""/>
+							<div class="location__gallery-link-overlay js-link-overlay">
+								<i class="fa fa-search"></i>
+							</div>
+						</a>
+					</li>
 				</ul>
 			</div><!-- /location -->
-			<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor exercitationem facere magni minima modi nisi odio officia, pariatur tempore. Aliquam facilis iusto maiores possimus repudiandae. Expedita explicabo mollitia omnis placeat.</p>
+			<p class="section__text">Коворкинг находится на 4 этаже в центральном корпусе кампуса университета.</p>
 		</section><!-- /section  -->
-		<section class="section layout">
+		<section id="partners" class="section layout">
 			<h3 class="section__title">Партнеры</h3>
 			<ul class="partners">
-				<li class="partners__item">
+				<li class="partners__item partners__item_sponsor">
 					<p class="partners__item-type">Организатор:</p>
 					<a class="href" href=""><img src="img/partners/dvfu.jpg" alt=""/></a>
 				</li>
 				<li class="partners__item">
 					<p class="partners__item-type">Поддержка:</p>
-					<a class="href" href=""><img src="img/partners/gameforest.jpg" alt=""/></a>
+					<a class="href" href="http://game-forest.com/"><img src="img/partners/gameforest.jpg" alt=""/></a>
 				</li>
-				<li class="partners__item"><a class="href" href=""><img src="img/partners/yota.jpg" alt=""/></a></li>
-				<li class="partners__item"><a class="href" href=""><img src="img/partners/farpost.jpg" alt=""/></a></li>
-				<li class="partners__item"><a class="href" href=""><img src="img/partners/kamagames.jpg" alt=""/></a></li>
+				<li class="partners__item"><a class="href" href="http://www.yota.ru/"><img src="img/partners/yota.jpg" alt=""/></a></li>
+				<li class="partners__item partners__item_farpost"><a class="href" href="http://vladivostok.farpost.ru/"><img src="img/partners/farpost.jpg" alt=""/></a></li>
+				<li class="partners__item"><a class="href" href="http://kamagames.ru/"><img src="img/partners/kamagames.jpg" alt=""/></a></li>
 			</ul>
 		</section><!-- /section -->
-		<section class="section layout">
+		<section id="faq" class="section layout">
 			<h3 class="section__title">Часто задаваемые вопросы</h3>
-			<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat harum maxime officia repellat? Adipisci aperiam dolor ducimus, eius ipsam iure rerum ut. Consequuntur cumque illo, nemo quae tempora vel.</p>
+			<p class="section__text">Если вы не нашли ответ на ваш вопрос — вам ответит Виталий Платонов, vitaliiplatonov@gmail.com. Но лучше еще раз перечитайте FAQ.</p>
 			<div class="faq">
 				<h4 class="faq__title"><span>Участники и команды</span></h4>
 				<ol class="faq__list">
 					<li class="faq__list-item">
 						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__text">Программисты, веб-дизайнеры, дизайнеры интерфейсов, менеджеры проектов из Владивостока. Возраст, университет и место работы не имеют значения. Хотите сделать нечто крутое за 48 часов - вы можете принять участие.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Участие бесплатное?</p>
+						<p class="faq__text">Да.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Сколько человек может быть в команде?</p>
+						<p class="faq__text">От 2 до 5 включительно.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Как создать команду?</p>
+						<p class="faq__text">Команды формируются в первый день – на открытии хакатона.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
-					</li>
-					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
-					</li>
-					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Можно ли участвовать удаленно?</p>
+						<p class="faq__text">Нет, все работают только в месте проведения, чтобы кроме работы над проектами была возможность знакомиться с другими участниками.</p>
 					</li>
 				</ol><!-- /faq-list -->
-				<h4 class="faq__title"><span>Участники и команды</span></h4>
+				<h4 class="faq__title"><span>Тема и проекты</span></h4>
 				<ol class="faq__list">
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Какая тема хакатона?</p>
+						<p class="faq__text">Тема третьего хакатона – игры на тему «Боги». Почему боги? Мы ввели такую тему, чтобы разбудить фантазию участников, дать то, от чего можно оттолкнуться и придумать сюжет и дизайн.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">На какие платформы можно делать игры?</p>
+						<p class="faq__text">На любые: браузеры, мобильные устройства, PC и т.д. Вы можете сделать игру с использованием реальных объектов, геолокационных данных, а можете сделать аркаду в 2D – нет никаких ограничений по жанрам. Но помните, что хакатон идет всего 48 часов, поэтому не стоит пытаться сделать огромный проект или использовать новые для вас инструменты.</p>
+					</li>
+				</ol><!-- /faq-list -->
+				<h4 class="faq__title"><span>Презентации и судейство</span></h4>
+				<ol class="faq__list">
+					<li class="faq__list-item">
+						<p class="faq__question">Какие критерии оценки проектов?</p>
+						<p class="faq__text">Судьи оценивают геймплей, графику, звук и функциональность игры по трем критериям: завершенность, качество, новизна. Это значит, что поощряются команды, которые самостоятельно и качественно пишут код, рисуют, работают со звуком, реализуют интересный геймплей. На открытии мы расскажем про критерии подробнее.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Как будут проходить презентации?</p>
+						<p class="faq__text">Представители команд будут по очереди выступать перед зрителями и экспертами. На выступление будет около 7 минут, столько же времени отводится на вопросы от экспертов. Чтобы не задерживать презентации до позднего вечера, ведущий вас прервет, если вы выйдете за временной регламент.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Как сделать нашу презентацию лучше?</p>
+						<p class="faq__text">1) Покажите в двух-трех предложениях, о чем ваша игра (сюжет, геймплей, жанр). Советуем построить выступление в соответствии с критериями судейства и рассказать про геймплей, графику, звук, функциональность.</p>
+						<p class="faq__text">2) Расскажите, что именно вам удалось сделать за 48 часов. Что именно сделал дизайнер, программист, остальные участники команды.</p>
+						<p class="faq__text">3) Продемонстрируйте, какой результат получилось достигнуть. Если есть работающая игра – идеально. Если готовы только части проекта – покажите, что именно вы доделали до конца (функциональность, графика и т.д.). Если вы не успеете сделать игру за 48 часов – ничего страшного, все отнесутся к этому нормально.</p>
+						<p class="faq__text">4) Заранее решите технические вопросы: подключите компьютер к hdmi, проверьте, что все работает. Если вы развернули проект на удаленном сервере, дайте ссылку на домен в презентации, потому что хост сложнее забивать в браузер. Бесплатный домен можно получить в зоне .tk. Настоятельно рекомендуем отрепетировать презентацию и убедиться, что вы укладываетесь в регламент</p>
+					</li>
+				</ol><!-- /faq-list -->
+				<h4 class="faq__title"><span>Еда и обеспечение</span></h4>
+				<ol class="faq__list">
+					<li class="faq__list-item">
+						<p class="faq__question">Что у нас с WI-FI?</p>
+						<p class="faq__text">Сетью вай-фай нас обеспечивает Yota. На открытии хакатона мы озвучим явки и пароли от сети. Плюс, будет запасная сеть от ДВФУ.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Что у нас с питанием?</p>
+						<p class="faq__text">ДВФУ обеспечивает нас завтраком, обедом и ужином. А еще в «Аяксе» есть стойка с дешевым кофе, возможно, самым дешевым в городе.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Где спим?</p>
+						<p class="faq__text">Журнал Nest предоставляет всем участникам спальники, но можете, конечно, и домой съездить поспать.</p>
 					</li>
 					<li class="faq__list-item">
-						<p class="faq__question">Кто может участвовать?</p>
-						<p class="faq__text">With our mobile and social app Pokerist Texas Poker you can play one of the most popular types of Poker- classic unlimited Texas Hold’em. You can either play at the table for chips or join tournaments.</p>
+						<p class="faq__question">Как соблюдать пропускной режим, если я не из кампуса?</p>
+						<p class="faq__text">Вы будете в списках охраны. Если у вас спросят пропуск, покажите бейдж участника и представьтесь.</p>
+					</li>
+					<li class="faq__list-item">
+						<p class="faq__question">Что нужно взять с собой?</p>
+						<p class="faq__text">Обязательно возьмите ноутбук: в нем заранее настройте окружение и все инструменты, которыми пользуетесь. Чтобы не тратить время на самом хакатоне, можно заблаговременно создать «нулевой проект» со всеми настройками и зависимостями.</p>
 					</li>
 				</ol><!-- /faq-list -->
 			</div>
 		</section><!-- /section -->
-		<section class="section layout">
-			<h3 class="section__title">Проекты прошлых Hackaton</h3>
-			<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, deleniti dolor esse ex facere illo illum modi nemo, nesciunt numquam quae ullam unde ut voluptate voluptates. Cum dolorum ipsum reprehenderit.</p>
+		<section id="projects" class="section layout">
+			<h3 class="section__title">Призеры прошлых хакатонов</h3>
+			<section class="project">
+				<h3 class="project__title">Hackathon 2 (17-19 октября 2014)</h3>
+				<table class="project__list">
+					<thead>
+					<tr class="project__head">
+						<th class="project-place">Место</th>
+						<th class="project-info">Проект</th>
+						<th class="project-team">Команда</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr class="project__item">
+							<td class="project-place"><span>1</span></td>
+							<td class="project-info">
+								<h4>StepPlayer</h4>
+								<p>Программа для бега под музыку для умных часов Samsung Gear 2. Приложение выбирает трек в зависимости от темпа бега.</p>
+							</td>
+							<td class="project-team">
+								<ul>
+									<li>Алексей Коваленко</li>
+									<li>Юрий Дубовой</li>
+								</ul>
+							</td>
+						</tr><!--/project-list item -->
+						<tr class="project__item">
+							<td class="project-place"><span>2</span></td>
+							<td class="project-info">
+								<h4>SoClose</h4>
+								<p>Чат для анонимного общения.</p>
+							</td>
+							<td class="project-team">
+								<ul>
+									<li>Александр Баев</li>
+									<li>Антон Злотников</li>
+									<li>Михаил Зинов</li>
+									<li>Ярослав Максимов</li>
+								</ul>
+							</td>
+						</tr><!--/project-list item -->
+						<tr class="project__item">
+							<td class="project-place"><span>3</span></td>
+							<td class="project-info">
+								<h4>House management</h4>
+								<p>Мониторинг информации, предоставленной УК или ТСЖ, снятие показаний приборов учета и уведомление жильцов о предстоящих собраниях и задолженностях.</p>
+							</td>
+							<td class="project-team">
+								<ul>
+									<li>Даниил Рыжков</li>
+									<li>Даниил Целикин</li>
+									<li>Никита Малявин</li>
+									<li>Ольга Ларкина</li>
+								</ul>
+							</td>
+						</tr><!--/project-list item -->
+					</tbody>
+				</table>
+				<div class="project__more"><span class="link">Показать еще<i class="fa fa-chevron-down"></i></span></div>
+			</section><!--/project -->
+			<section class="project">
+				<h3 class="project__title">Hackathon 1 (29-31 марта 2014)</h3>
+				<table class="project__list">
+					<thead>
+					<tr class="project__head">
+						<th class="project-place">Место</th>
+						<th class="project-info">Проект</th>
+						<th class="project-team">Команда</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr class="project__item">
+						<td class="project-place"><span>1</span></td>
+						<td class="project-info">
+							<h4>Easyway</h4>
+							<p>Приложение для сбора средств на благотворительность за счет просмотра рекламных роликов.</p>
+						</td>
+						<td class="project-team">
+							<ul>
+								<li>Андрей Новиков</li>
+								<li>Мария Прохорова</li>
+								<li>Юлия Войтенко</li>
+							</ul>
+						</td>
+					</tr><!--/project-list item -->
+					<tr class="project__item">
+						<td class="project-place"><span>2</span></td>
+						<td class="project-info">
+							<h4>Общага. Перезагрузка</h4>
+							<p>Социальная сеть для общежитий.</p>
+						</td>
+						<td class="project-team">
+							<ul>
+								<li>Антон Злотников</li>
+								<li>Иван Калита</li>
+								<li>Константин Ландышев</li>
+								<li>Марк Тертышный</li>
+							</ul>
+						</td>
+					</tr><!--/project-list item -->
+					<tr class="project__item">
+						<td class="project-place"><span>3</span></td>
+						<td class="project-info">
+							<h4>Mappin</h4>
+							<p>Сервис, позволяющий создавать коллекции точек на карте и делиться ими с другими.</p>
+						</td>
+						<td class="project-team">
+							<ul>
+								<li>Артур Корнаков</li>
+								<li>Валерий Назаров</li>
+								<li>Рада Клименко</li>
+								<li>Максим Соловьев</li>
+							</ul>
+						</td>
+					</tr><!--/project-list item -->
+					</tbody>
+				</table>
+				<div class="project__more"><span class="link">Показать еще<i class="fa fa-chevron-down"></i></span></div>
+			</section><!--/project -->
 		</section><!-- /section -->
 		<footer class="footer">
 			<div class="layout">
 				<h2 class="footer__title">Присоединяйтесь<br />к  Vladivostok Hackathon #3</h2>
 				<div class="footer__btn">
-					<a class="btn" href="">Участвовать</a>
+					<a class="btn" href="https://docs.google.com/forms/d/1vfGN_LYY00WjviXcNy2y2zLf1X17yT_FGzXnOU2KaQk/viewform">Участвовать</a>
 				</div>
 				<div class="footer__contacts">
 					<h4>Контакты:</h4>
@@ -207,12 +458,42 @@
 				<div class="footer__bottom">
 					<div class="footer__bottom-copy">
 						<p>© 2015  Vladivostok Hackathon #3</p>
+						<!-- Go to www.addthis.com/dashboard to customize your tools -->
 						<div class="addthis_native_toolbox"></div>
 					</div>
-					<a class="footer__bottom_logo" href=""></a>
+					<a class="footer__bottom-logo" href="http://kamagames.ru/"></a>
 				</div>
 			</div>
 		</footer>
 	</div>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-531ff68d79255e1f" async="async"></script>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter29867389 = new Ya.Metrika({id:29867389,
+						webvisor:true,
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true});
+				} catch(e) { }
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="//mc.yandex.ru/watch/29867389" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 </body>
 </html>

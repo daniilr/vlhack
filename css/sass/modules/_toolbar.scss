@@ -11,6 +11,7 @@ $b: ".toolbar";
 
 #{$b}__inner {
 	@extend %clearfix;
+	background: $white;
 }
 
 #{$b}__menu {

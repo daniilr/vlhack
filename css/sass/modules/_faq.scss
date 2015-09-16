@@ -29,14 +29,14 @@ $b: ".faq";
 }
 
 #{$b}__title_open {
-	color: $black;
+	color: $black !important;
 
 	@include after {
-		content: "-";
+		content: "-" !important;
 	}
 
 	span {
-		border-bottom: none;
+		border-bottom: none !important;
 	}
 }
 

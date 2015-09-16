@@ -6,10 +6,10 @@ $b: ".footer";
 #{$b} {
 	height: 660px;
 	width: 100%;
-	background-image: url("../img/bg_finish.jpg");
-	background-repeat: no-repeat;
-	background-position: 50% 100%;
-	@include background-size(100% auto);
+//	background-image: url("../img/bg_finish.jpg");
+//	background-repeat: no-repeat;
+//	background-position: 50% 100%;
+//	@include background-size(100% auto);
 	text-align: center;
 }
 
@@ -31,4 +31,21 @@ $b: ".footer";
 		font-size: 15px;
 		line-height: 150%;
 	}
+}
+
+#{$b}__bottom {
+	@extend %clearfix;
+	padding-top: 80px;
+}
+
+#{$b}__bottom-copy {
+	float: left;
+	color: $white;
+	font-size: 16px;
+}
+
+#{$b}__bottom-logo {
+	float: right;
+	display: block;
+	@include image-with-dimentions("logo-kama.png");
 }

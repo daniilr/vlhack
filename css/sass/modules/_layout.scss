@@ -5,4 +5,5 @@ $b: ".layout";
 
 #{$b} {
   @include container(980px);
+  min-width: 980px;
 }

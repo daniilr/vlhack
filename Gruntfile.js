@@ -6,6 +6,13 @@ module.exports = function (grunt) {
 			description: 'jquery',
 			path: 'vendor/',
 			js: ['jquery.min.js']
+		},
+
+		'fancybox': {
+			description: 'fancybox',
+			path: 'vendor/',
+			css: ['fancybox/jquery.fancybox.css'],
+			js: ['fancybox/jquery.fancybox.js']
 		}
 
 //		'modernizr': {

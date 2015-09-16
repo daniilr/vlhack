@@ -26,10 +26,14 @@ $b: ".section";
 }
 
 #{$b}__text {
-	margin: 20px 0;
+	margin: 27px 0;
 	font-size: 16px;
 	color: $gray;
 	line-height: 160%;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 #{$b}__btn {

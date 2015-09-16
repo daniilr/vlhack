@@ -1,0 +1,87 @@
+/******************************** project ********************************/
+
+
+$b: ".project";
+
+#{$b} {
+	&:not(:first-of-type) {
+		display: none;
+	}
+
+	&:last-of-type {
+		#{$b}__more {
+			display: none;
+		}
+	}
+}
+
+
+#{$b}__title {
+	margin: 50px 0 25px 0;
+	font-size: 24px;
+	color: $purpule;
+}
+
+#{$b}__more {
+	margin-top: 30px;
+	text-align: center;
+
+	span {
+		position: relative;
+	}
+
+	i {
+		position: absolute;
+		top: 2px;
+		right: -15px;
+		font-size: 10px;
+		font-weight: 100;
+	}
+}
+
+#{$b}-place {
+
+	span {
+		font-size: 24px;
+		color: $pink;
+	}
+}
+
+
+#{$b}-team {
+	width: 30%;
+
+    li {
+		margin-bottom: 7px;
+	}
+}
+
+tr {
+	border-bottom: 1px dashed $gray-light;
+}
+
+th {
+	padding: 10px 15px;
+	font-size: 14px;
+	color: rgba($gray, .5);
+
+	&:first-child {
+		padding-left: 0;
+	}
+}
+
+td {
+	padding: 22px 15px;
+}
+
+td {
+	font-size: 14px;
+	color: $gray;
+	line-height: 140%;
+
+	h4 {
+		margin-bottom: 12px;
+		font-size: 24px;
+		color: $black;
+	}
+}

@@ -5,7 +5,7 @@
 
 @import "compass";
 @import "compass/reset";
-//@import "normalize";
+@import "font-awesome";
 @import "mixins";
 @import "susy";
 @import "breakpoint";
@@ -18,6 +18,7 @@
 @import "modules/toolbar";
 @import "modules/menu";
 @import "modules/btn";
+@import "modules/link";
 @import "modules/social";
 @import "modules/header";
 @import "modules/section";
@@ -25,5 +26,5 @@
 @import "modules/location";
 @import "modules/partners";
 @import "modules/faq";
-@import "modules/past-projects";
+@import "modules/projects";
 @import "modules/footer";

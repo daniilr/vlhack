@@ -1,0 +1,12 @@
+/******************************** link ********************************/
+
+
+$b: ".link";
+
+#{$b} {
+	font-size: 16px;
+	color: $pink;
+	cursor: pointer;
+	text-decoration: none;
+	border-bottom: 1px dashed $pink;
+}
