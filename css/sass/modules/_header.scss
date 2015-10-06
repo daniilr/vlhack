@@ -32,15 +32,15 @@ $b: ".header";
 		font-family: Georgia, Helvetica, Arial, sans-serif;
 		font-style: italic;
 		color: $textbg;
-		font-size: 24px;
+		font-size: 18px;
 		line-height: 150%;
 	}
 	p:first-of-type{
+		font-size: 22px;
 		display: inline;
 		background: $textbg;
 	}
 	p span{
-		font-size: 22px;
 		background: $textbg;
 	}
 }

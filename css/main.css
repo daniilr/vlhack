@@ -2999,6 +2999,11 @@ body {
   background: rgba(0, 0, 0, 0.8);
 }
 
+/* line 39, sass/modules/_common.scss */
+strong {
+  font-weight: bold;
+}
+
 /******************************** layout ********************************/
 /* line 6, sass/modules/_layout.scss */
 .layout {
@@ -3176,17 +3181,17 @@ body {
   font-family: Georgia, Helvetica, Arial, sans-serif;
   font-style: italic;
   color: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
 }
 /* line 38, sass/modules/_header.scss */
 .header__quote p:first-of-type {
+  font-size: 22px;
   display: inline;
   background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
-/* line 42, sass/modules/_header.scss */
+/* line 43, sass/modules/_header.scss */
 .header__quote p span {
-  font-size: 22px;
   background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
 
@@ -3678,30 +3683,31 @@ td h4 {
 /* line 36, sass/modules/_footer.scss */
 .footer__contacts p span {
   background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+  font-size: 22px;
 }
-/* line 40, sass/modules/_footer.scss */
+/* line 41, sass/modules/_footer.scss */
 .footer__contacts a {
-  color: #63B3FF;
+  color: #2530F7;
   background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
 
-/* line 46, sass/modules/_footer.scss */
+/* line 47, sass/modules/_footer.scss */
 .footer__bottom {
   padding-top: 80px;
 }
 
-/* line 51, sass/modules/_footer.scss */
+/* line 52, sass/modules/_footer.scss */
 .footer__bottom-copy {
   float: left;
   color: #000;
   font-size: 16px;
 }
-/* line 55, sass/modules/_footer.scss */
+/* line 56, sass/modules/_footer.scss */
 .footer__bottom-copy span {
   background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
 
-/* line 60, sass/modules/_footer.scss */
+/* line 61, sass/modules/_footer.scss */
 .footer__bottom-logo {
   float: right;
   display: block;
