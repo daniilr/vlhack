@@ -19,7 +19,11 @@ $b: ".header";
 #{$b}__title {
 	padding: 100px 0 68px 0;
 	font-size: 58px;
-	color: $white;
+	color: $bgtext;
+
+  	span {
+	  background:$textbg;
+	}
 }
 
 #{$b}__quote {
@@ -27,14 +31,17 @@ $b: ".header";
 	p {
 		font-family: Georgia, Helvetica, Arial, sans-serif;
 		font-style: italic;
-		color: $white;
+		color: $textbg;
 		font-size: 24px;
 		line-height: 150%;
 	}
-
-	p + p {
-		font-size: 18px;
-		color: rgba($white, .6);
+	p:first-of-type{
+		display: inline;
+		background: $textbg;
+	}
+	p span{
+		font-size: 22px;
+		background: $textbg;
 	}
 }
 

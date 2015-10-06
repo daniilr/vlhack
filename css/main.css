@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -2976,16 +2976,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /******************************** compass ********************************/
-/* line 19, sass/modules/_common.scss */
+/* line 24, sass/modules/_common.scss */
 body {
   background: url("../img/bg_start.jpg"), url("../img/bg_finish.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: 50% 0, 50% 100%;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: #553CA1;
+  background-color: #FCE300;
 }
 @media (min-width: 1600px) {
-  /* line 19, sass/modules/_common.scss */
+  /* line 24, sass/modules/_common.scss */
   body {
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -2994,7 +2994,7 @@ body {
   }
 }
 
-/* line 31, sass/modules/_common.scss */
+/* line 36, sass/modules/_common.scss */
 .fancybox-overlay {
   background: rgba(0, 0, 0, 0.8);
 }
@@ -3007,7 +3007,7 @@ body {
   margin-right: auto;
   min-width: 980px;
 }
-/* line 12, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.6/sass/susy/output/support/_clearfix.scss */
 .layout:after {
   content: " ";
   display: block;
@@ -3077,13 +3077,13 @@ body {
   text-align: center;
   font-family: Georgia, Helvetica, Arial, sans-serif;
   font-size: 36px;
-  background-color: #E50262;
+  background-color: #553CA1;
   color: #FFF;
   text-decoration: none;
 }
 /* line 18, sass/modules/_btn.scss */
 .btn:hover {
-  background-color: rgba(229, 2, 98, 0.9);
+  background-color: rgba(85, 60, 161, 0.8);
 }
 
 /******************************** link ********************************/
@@ -3152,7 +3152,7 @@ body {
 
 /* line 12, sass/modules/_header.scss */
 .header__logo {
-  background-image: url('../img/logo.png?1431896179');
+  background-image: url('../img/logo.png?1444097188');
   width: 135px;
   height: 113px;
   position: absolute;
@@ -3164,21 +3164,30 @@ body {
 .header__title {
   padding: 100px 0 68px 0;
   font-size: 58px;
-  color: #FFF;
+  color: #000;
+}
+/* line 24, sass/modules/_header.scss */
+.header__title span {
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
 
-/* line 27, sass/modules/_header.scss */
+/* line 31, sass/modules/_header.scss */
 .header__quote p {
   font-family: Georgia, Helvetica, Arial, sans-serif;
   font-style: italic;
-  color: #FFF;
+  color: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
   font-size: 24px;
   line-height: 150%;
 }
-/* line 35, sass/modules/_header.scss */
-.header__quote p + p {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.6);
+/* line 38, sass/modules/_header.scss */
+.header__quote p:first-of-type {
+  display: inline;
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+}
+/* line 42, sass/modules/_header.scss */
+.header__quote p span {
+  font-size: 22px;
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
 }
 
 /******************************** section ********************************/
@@ -3370,7 +3379,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../../Users/Work-nekki/.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.6/sass/susy/output/support/_clearfix.scss */
 .location__gallery:after {
   content: " ";
   display: block;
@@ -3470,20 +3479,9 @@ body {
   position: relative;
   vertical-align: middle;
   display: table-cell;
-  width: 25%;
 }
 
-/* line 21, sass/modules/_partners.scss */
-.partners__item_sponsor {
-  padding-right: 110px;
-}
-
-/* line 25, sass/modules/_partners.scss */
-.partners__item_farpost {
-  padding-right: 30px;
-}
-
-/* line 29, sass/modules/_partners.scss */
+/* line 26, sass/modules/_partners.scss */
 .partners__item-type {
   position: absolute;
   top: -19px;
@@ -3655,42 +3653,59 @@ td h4 {
 /* line 16, sass/modules/_footer.scss */
 .footer__title {
   font-size: 58px;
-  color: #FFF;
+  color: #000;
   padding: 53px 0 52px 0;
 }
 
 /* line 22, sass/modules/_footer.scss */
 .footer__contacts {
-  color: #FFF;
+  color: #000;
 }
 /* line 25, sass/modules/_footer.scss */
 .footer__contacts h4 {
   font-size: 24px;
   padding: 40px 0 30px 0;
 }
-/* line 30, sass/modules/_footer.scss */
+/* line 28, sass/modules/_footer.scss */
+.footer__contacts h4 span {
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+}
+/* line 33, sass/modules/_footer.scss */
 .footer__contacts p {
   font-size: 15px;
   line-height: 150%;
 }
-
 /* line 36, sass/modules/_footer.scss */
+.footer__contacts p span {
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+}
+/* line 40, sass/modules/_footer.scss */
+.footer__contacts a {
+  color: #63B3FF;
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+}
+
+/* line 46, sass/modules/_footer.scss */
 .footer__bottom {
   padding-top: 80px;
 }
 
-/* line 41, sass/modules/_footer.scss */
+/* line 51, sass/modules/_footer.scss */
 .footer__bottom-copy {
   float: left;
-  color: #FFF;
+  color: #000;
   font-size: 16px;
 }
+/* line 55, sass/modules/_footer.scss */
+.footer__bottom-copy span {
+  background: linear-gradient(to bottom, rgba(252, 227, 0, 0) 0%, #fce300 30%, #fce300 90%, rgba(252, 227, 0, 0) 100%);
+}
 
-/* line 47, sass/modules/_footer.scss */
+/* line 60, sass/modules/_footer.scss */
 .footer__bottom-logo {
   float: right;
   display: block;
-  background-image: url('../img/logo-kama.png?1432061540');
+  background-image: url('../img/logo-kama.png?1442380824');
   width: 176px;
   height: 42px;
 }

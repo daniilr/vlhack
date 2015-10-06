@@ -11,11 +11,11 @@ $b: ".btn";
 	text-align: center;
 	font-family: Georgia, Helvetica, Arial, sans-serif;
 	font-size: 36px;
-	background-color: $pink;
+	background-color: $purpule;
 	color: $white;
 	text-decoration: none;
 
 	&:hover {
-		background-color: rgba($pink, .9);
+		background-color: rgba($purpule, .8);
 	}
 }

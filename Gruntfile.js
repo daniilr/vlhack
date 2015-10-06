@@ -158,9 +158,9 @@ module.exports = function (grunt) {
 //		}
 		csso: {
 			dist: {
-				options: {
-					report: 'gzip'
-				},
+				//options: {
+				//	report: 'gzip'
+				//},
 				files: {
 					'css/main.min.css': ['css/main.min.css']
 				}
