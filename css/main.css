@@ -3486,7 +3486,12 @@ strong {
   display: table-cell;
 }
 
-/* line 26, sass/modules/_partners.scss */
+/* line 25, sass/modules/_partners.scss */
+.partners__item_prim {
+  padding-right: 400px;
+}
+
+/* line 29, sass/modules/_partners.scss */
 .partners__item-type {
   position: absolute;
   top: -19px;
