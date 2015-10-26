@@ -2,7 +2,10 @@
 
 
 $b: ".partners";
-
+#{$b}#{$b}-margin{
+	margin-left: 145px;
+	margin-top: 0;
+}
 #{$b} {
 	margin-top: 20px;
 	display: table;
@@ -22,8 +25,8 @@ $b: ".partners";
 
 #{$b}__item_farpost {
 }
-#{$b}__item_prim {
-  padding-right: 125px;
+#{$b}__item_nest {
+  padding-right: 400px;
 }
 
 #{$b}__item-type {

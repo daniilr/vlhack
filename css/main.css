@@ -3471,7 +3471,13 @@ strong {
 }
 
 /******************************** partners ********************************/
-/* line 6, sass/modules/_partners.scss */
+/* line 5, sass/modules/_partners.scss */
+.partners.partners-margin {
+  margin-left: 145px;
+  margin-top: 0;
+}
+
+/* line 9, sass/modules/_partners.scss */
 .partners {
   margin-top: 20px;
   display: table;
@@ -3479,19 +3485,19 @@ strong {
   width: 100%;
 }
 
-/* line 13, sass/modules/_partners.scss */
+/* line 16, sass/modules/_partners.scss */
 .partners__item {
   position: relative;
   vertical-align: middle;
   display: table-cell;
 }
 
-/* line 25, sass/modules/_partners.scss */
-.partners__item_prim {
-  padding-right: 125px;
+/* line 28, sass/modules/_partners.scss */
+.partners__item_nest {
+  padding-right: 400px;
 }
 
-/* line 29, sass/modules/_partners.scss */
+/* line 32, sass/modules/_partners.scss */
 .partners__item-type {
   position: absolute;
   top: -19px;
