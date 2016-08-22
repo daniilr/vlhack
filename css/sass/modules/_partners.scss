@@ -7,20 +7,27 @@ $b: ".partners";
 	margin-top: 0;
 }
 #{$b} {
-	margin-top: 20px;
-	display: table;
+	margin-bottom: 20px;
+	display: block;
 	height: 140px;
 	width: 100%;
+}
+
+#{$b}__title {
+	position: relative;
+	font-size: 24px;
 }
 
 #{$b}__item {
 	position: relative;
 	vertical-align: middle;
-	display: table-cell;
+	display: inline-block;
+    margin-right: 20px;
 //	border: 1px solid red;
 }
 
-#{$b}__item_sponsor {
+#{$b}__item-sk {
+    margin-right: 40px;
 }
 
 #{$b}__item_farpost {

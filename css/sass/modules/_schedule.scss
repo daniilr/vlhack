@@ -7,12 +7,12 @@ $b: ".schedule";
 	margin-top: 30px;
 
 	&:not(:first-of-type) {
-		display: none;
+		// display: none;
 	}
 
 	&:last-of-type {
 		#{$b}__more {
-			display: none;
+			// display: none;
 		}
 	}
 }

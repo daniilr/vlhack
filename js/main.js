@@ -1,5 +1,5 @@
-/*! adventize - v - 2015-10-26
-* Copyright (c) 2015 ; Licensed  */
+/*! vlhack - v - 2016-08-23
+* Copyright (c) 2016 ; Licensed  */
 /**
  * Created by Work-nekki on 13/03/14.
  */

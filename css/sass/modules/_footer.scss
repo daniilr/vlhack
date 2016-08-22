@@ -15,32 +15,25 @@ $b: ".footer";
 
 #{$b}__title {
 	font-size: 58px;
-	color: $black;
+	color: $secondary;
 	padding: 53px 0 52px 0;
 }
 
 #{$b}__contacts {
-	color: $black;
+	color: $secondary;
 
 	h4 {
 		font-size: 24px;
 		padding: 40px 0 30px 0;
-	  	span{
-		  	background:$textbg;
-		}
 	}
 
 	p {
 		font-size: 15px;
 		line-height: 150%;
-	  	span{
-		  	background:$textbg;
-		    font-size:22px;
-		}
 	}
     a{
-	  color: #2530F7;
-	  background:$textbg;
+	  color: $green;
+	  text-decoration: underline;
 	}
 }
 
@@ -51,11 +44,8 @@ $b: ".footer";
 
 #{$b}__bottom-copy {
 	float: left;
-	color: $black;
+	color: $secondary;
 	font-size: 16px;
-	span{
-		background:$textbg;
-	}
 }
 
 #{$b}__bottom-logo {

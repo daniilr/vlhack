@@ -122,7 +122,12 @@ module.exports = function (grunt) {
 			dist: {
 				files: ['js/source/**/*.js', 'css/sass/**/*', 'images/source/**/*.{png,jpg,jpeg,gif}', 'vendor/**/*'],
 				tasks: 'default'
-			}
+			},
+			options: {
+      			livereload: true,
+      			host: 'localhost',
+        		port: 9000
+    		},
 		},
 		imagemin: {
 			dynamic: {

@@ -5,8 +5,8 @@ $b: ".section";
 
 #{$b} {
 	position: relative;
-	background:  url("../img/section-decor.jpg"),
-			     url("../img/section-decor-top.jpg");
+	background:  url("../img/section-decor.png"),
+			     url("../img/section-decor-top.png");
 	background-color: $white;
 	background-position: 100% 100%, 0 0;
 	background-repeat: repeat-x, repeat-x;
@@ -16,7 +16,7 @@ $b: ".section";
 	@include box-sizing(border-box);
 
 	&:first-of-type {
-		background:  url("../img/section-decor.jpg") repeat-x 100% 100%;
+		background:  url("../img/section-decor.png") repeat-x 100% 100%;
 		background-color: $white;
 	}
 }

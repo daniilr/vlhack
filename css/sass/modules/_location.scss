@@ -11,6 +11,7 @@ $b: ".location";
 	@extend %clearfix;
 	margin-bottom: 30px;
 	font-size: 16px;
+	margin-top: 20px;
 }
 
 #{$b}__data-place {
@@ -28,7 +29,7 @@ $b: ".location";
 }
 
 #{$b}__data-vk {
-	float: right;
+	float: left;
 	margin-right: 100px;
 }
 
