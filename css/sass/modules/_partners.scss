@@ -16,6 +16,7 @@ $b: ".partners";
 #{$b}__title {
 	position: relative;
 	font-size: 24px;
+	margin-bottom: 20px;
 }
 
 #{$b}__item {
@@ -28,6 +29,13 @@ $b: ".partners";
 
 #{$b}__item-sk {
     margin-right: 40px;
+}
+
+#{$b}__item-rostelekom {
+    
+    img{ 
+    	width: 200px;
+    }
 }
 
 #{$b}__item_farpost {

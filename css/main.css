@@ -3157,7 +3157,7 @@ strong {
 
 /* line 12, sass/modules/_header.scss */
 .header__logo {
-  background-image: url('../img/logo.png?1471452017');
+  background-image: url('../img/logo.png?1472990881');
   width: 157px;
   height: 112px;
   position: absolute;
@@ -3473,9 +3473,10 @@ strong {
 .partners__title {
   position: relative;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
-/* line 21, sass/modules/_partners.scss */
+/* line 22, sass/modules/_partners.scss */
 .partners__item {
   position: relative;
   vertical-align: middle;
@@ -3483,17 +3484,22 @@ strong {
   margin-right: 20px;
 }
 
-/* line 29, sass/modules/_partners.scss */
+/* line 30, sass/modules/_partners.scss */
 .partners__item-sk {
   margin-right: 40px;
 }
 
-/* line 35, sass/modules/_partners.scss */
+/* line 36, sass/modules/_partners.scss */
+.partners__item-rostelekom img {
+  width: 200px;
+}
+
+/* line 43, sass/modules/_partners.scss */
 .partners__item_nest {
   padding-right: 400px;
 }
 
-/* line 39, sass/modules/_partners.scss */
+/* line 47, sass/modules/_partners.scss */
 .partners__item-type {
   position: absolute;
   top: -19px;
@@ -3701,7 +3707,7 @@ td h4 {
 .footer__bottom-logo {
   float: right;
   display: block;
-  background-image: url('../img/logo-kama.png?1471407464');
+  background-image: url('../img/logo-kama.png?1472990881');
   width: 176px;
   height: 42px;
 }
